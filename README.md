@@ -18,7 +18,7 @@ Here are some examples:
 2.  Introducing a websocket stream that pushes price updates to a browser and triggers a grid to make a backend api call to refresh.
 3.  Integrating a datastream e.g. Kafka that triggers processing in your service application, then on each update your application makes a further call to another (micro)service on every Kafka message.
 
-You can immagine a host of further examples where either the rate of event triggers in the environment that generates events and downstream services which are impacted on can not keep up.
+You can immagine a host of further examples where the rate of event triggers in the environment that generates events and the downstream services which are impacted on can not keep up.
 
 #### Interesting, does this trigger your thoughts
 
